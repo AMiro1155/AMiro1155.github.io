@@ -1,31 +1,414 @@
-<!--Home page for personal website-->
-<!--Author: Andrey Miroshnikov-->
-<!--Created: 24/04/18 22:40 (GMT-7)-->
-<!--Version: 0.1-->
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" href="styles.css">
-	</head>
-	<title>
-		Andrey's Portfolio!
-	</title>
-	<h1>Andrey Miroshnikov - Андрей Мирошников</h1>
-	<p>
-		I'm a student with a passion in electronics. Since 2011, I have been learning about this subject mainly outside of the classroom as electronics was (and still is) niche in schools and sixth forms.
-		My main objective is to develop better components and systems (be they passive, active, analogue or digital) to improve everyday aspects of life (travel, computer interaction, automation) as well as make space travel more accessible.
-	</p>
-	<h1>Academic Work</h1>
-	<p>
-		College - A-Levels
-		University of Bristol
-		University of California
-	</p>
-	<h1>Projects</h1>
-	<p>
-		Hardware based
-		Software based
-	</p>
-	</body>
+<html lang="en">
+<!-- Modified 03/02/2019 22:09 -->
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Curriculum Vitae - Andrey Miroshnikov</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
+  <!-- Style for image gallery -->
+  <style>
+  div.gallery {
+    margin: 25px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  </style>
+  
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Andrey Miroshnikov</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.png" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#gallery">Gallery</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Andrey
+          <span class="text-primary">Miroshnikov</span>
+        </h1>
+        <div class="subheading mb-5">
+          <a href="mailto:name@email.com">andrey.miro@protonmail.com</a>
+        </div>
+        <p class="lead mb-5">Electrical and Electronic Engineering student skilled in RF, Analogue, Digital and PCB layout.</p>
+		<p>My main objective is to develop better components and systems (passive, active, analogue or digital) to improve everyday aspects of life (travel, computer interaction, automation) and eventually make space travel more accessible.</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/aamiro/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+		  <!--
+          <a href="#">
+            <i class="fab fa-github"></i>
+          </a>
+		  -->
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Experience</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Analogue Layout Intern</h3>
+            <div class="subheading mb-3">Dialog Semiconductor, Swindon, UK</div>
+            <p>Worked in the analogue layout team. Heavy use of Cadence Virtuoso. Migrated IP from 6-metal to 4-metal process. Developed compact capacitor cells.</p>
+			<p>Skills: Analogue circuit design, analogue layout, Cadence Virtuoso, Linux.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">July 2018 - Sep 2018</span>
+          </div>
+        </div>
+		
+		<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Digital Design Intern</h3>
+            <div class="subheading mb-3">Dialog Semiconductor, Swindon, UK</div>
+            <p>Developed Python library to interface with SPMI Master (SystemVerilog instantiated in a Zynq700 SoC FPGA).</p>
+			<p>Skills: Python, C, Linux, Xilinx Vivado, SystemVerilog/Verilog, tcl, FPGAs.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">June 2017 - August 2017</span>
+          </div>
+        </div>
+
+		<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Research and Initiatives Intern</h3>
+            <div class="subheading mb-3">Dialog Semiconductor, Swindon, UK</div>
+            <p>Programmed with Visual Basic for Applications (VBA) in MS Excel. Implemented data parsing and automatic graph drawing. First time I worked in an office environment.</p>
+			<p>Skills: MS Office, VBA, programming.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">June 2016 - August 2016</span>
+          </div>
+        </div>
+		
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Education</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">University of Bristol</h3>
+            <div class="subheading mb-3">Master of Engineering</div>
+            <div>Electrical and Electronic Engineering</div>
+            <p>First Year - 82%</p>
+			<p>First Year - 83%</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2015 - June 2019</span>
+          </div>
+        </div>
+		
+		<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">University of California Irvine</h3>
+            <div class="subheading mb-3">Study Abroad - Engineering</div>
+            <div>Electrical Engineering</div>
+            <p>GPA: 3.55</p>
+			<p>MMIC Design (with ADS/AWR) - A</p>
+			<p>VLSI Design - A</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2017 - June 2018</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Sixth Form College, Farnborough</h3>
+            <div class="subheading mb-3">A-Levels</div>
+			<p>Mathematics - A*</p>
+			<p>Further Mathematics - A</p>
+			<p>Electronics - A*</p>
+			<p>Physics - A</p>
+			<p>Russian - A*</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2013 - June 2015</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
+      <div class="w-100">
+        <h2 class="mb-5">Projects</h2>
+		
+		<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">BEEES Make-a-thon</h3>
+            <div class="subheading mb-3">"Jarvis" Personal Assistant</div>
+            <div>24 hour competition sponsored by ARM, where the main theme was machine learning. My team worked on installing and using Snip.ai libraries on the Raspberry Pi 3 to make a voice assistant that processes commands locally. Main feature was to allow hands-free lookup of datasheets (when soldering for example).</div>
+			<p>Skills: Working in multidisciplinary team, using linux OS (Raspbian), soldering, laser cutting.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2nd February 2019 - 3rd February 2019</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">BEEES Robot Wars</h3>
+            <div class="subheading mb-3">Motor controller PCB</div>
+            <div>Recently designed 2-layer PCB for compact control of ant-weight robot. Replaces discrete receiver, motor driver and power supply solution with single board.</div>
+			<p>Skills: Creating specification, studying datasheets, KiCAD, Gerber files, SMD soldering</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">July 2018 - Present</span>
+          </div>
+        </div>
+		
+		<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">GSM Phone</h3>
+            <div class="subheading mb-3">Schematic and PCB Design</div>
+            <div>Researched components, created schematic and PCB footprints. 4-layer PCB design using KiCad First time used SMD components.</div>
+            <p>Skills: Creating specification, studying datasheets, KiCAD, Gerber files, SMD soldering, "AT" commands</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">June 2017 - January 2018</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">UKSEDS Lunar Rover Competition</h3>
+            <div class="subheading mb-3">Motor Controller PCB Design</div>
+            <div>Developed single layer motor controller board (based on TLE5206) for Bristol's lunar rover entry.</div>
+            <p>Skills: Studying datasheets, KiCAD, Gerber files.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">June 2017 - July 2017</span>
+          </div>
+        </div>
+		
+		<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Digital Clock</h3>
+            <div class="subheading mb-3">Schematic and Stripboard Implementation</div>
+            <div>Designed clock circuit using two methods: 4000 series ICs and ATMega 328p (with Arduino) microcontroller. Single layer PCB was designed for the descrete IC clock and etched using ferric chloride.</div>
+            <p>Skills: Digital Logic, PCB design (EAGLE), FeCl etching.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">March 2014 - October 2014</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+	
+	<hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+        <div class="subheading mb-3">Electronics</div>
+		<p>Hand soldering (8 years experience), SMD and THT.</p>
+		<p>PCB Design. 4, 2 and single layer PCBs designed in KiCAD or EAGLE.</p>
+        <div class="subheading mb-3">Programming/Hardware Description Languages</div>
+		<p>Python, C, Java.</p>
+		<p>VHDL, Verilog, SystemVerilog.</p>
+		<p>LaTeX, HTML.</p>
+		<div class="subheading mb-3">Miscellaneous</div>
+        <p>Russian language. Native speaker.</p>
+		<p>Japanese language. Basic grammar, phonetic alphabets.</p>
+
+    </section>
+	
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+      <div class="w-100">
+        <h2 class="mb-5">Interests</h2>
+        <p>I study Japanese in my spare time, and have been doing so for the past 6 years. Currently I know　the hiragana/katakana phonetic alphabets, a small selection (around a 100) kanji and basic grammar (verb conjugation etc.). I have still much to learn and after uni I plan to study more seriously!</p>
+		<p>こんにちは、アンドリユーと申します！２１歳です。電子工学です。英語とロシア語と少しにほんごを話せます。</p>
+		<p>К тому же, я умею говорить и писать на русском языке так как родился в россии.</p>
+		<p>During university, I've learned to ballroom dance. Dance competitively against other unis with Bristol's BULABDS. Danced in Blackpool twice.</p>
+        <p>I am the vice president of Bristol SEDS (Students for Exploration and Development of Space) society. My main role is managing our local CanSat competition (within university).</p>
+		<p>Since March 2018, I gained an interest in digital photography and sometimes take my camera for a nature shoot.</p>
+		<p class="mb-0">Technology and engineering contraptions of any kind facinate me and that has lead to my career choice as an engineer. I also generally tinker with electronics in my spare time.</p>
+      </div>
+    </section>
+	
+	<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="gallery">
+      <div class="w-100">
+        <h2 class="mb-5">Gallery</h2>
+        <p>A small gallery demonstrating my projects since 2011.</p>
+      </div>
+    </section>
+	
+	<div class="gallery">
+      <a target="_blank" href="img/projects/arduino_clock1.jpg">
+         <img src="img/projects/arduino_clock1.jpg" alt="Arduino Clock" width="600" height="400">
+      </a>
+      <div class="desc">First arduino clock I designed - (2014)</div>
+    </div>
+	
+	<div class="gallery">
+      <a target="_blank" href="img/projects/ic_clock.jpg">
+         <img src="img/projects/ic_clock.jpg" alt="IC Clock" width="600" height="400">
+      </a>
+      <div class="desc">Digital clock PCB etched using ferric chloride - (2014)</div>
+    </div>
+	
+	<div class="gallery">
+      <a target="_blank" href="img/projects/TLE5206_front.png">
+         <img src="img/projects/TLE5206_front.png" alt="TLE5206 Controller PCB" width="600" height="400">
+      </a>
+      <div class="desc">PCB designed for Bristol's lunar rover entry - (2017)</div>
+    </div>
+	
+	<div class="gallery">
+      <a target="_blank" href="img/projects/TLE_front.jpg">
+         <img src="img/projects/TLE_front.jpg" alt="TLE5206 Controller PCB Assembled (Front)" width="600" height="400">
+      </a>
+      <div class="desc">Assembled motor controller PCB - (2017)</div>
+    </div>
+	
+	<div>
+	<p></p>
+	</div>
+	
+	<div class="gallery">
+      <a target="_blank" href="img/projects/TLE_back.jpg">
+         <img src="img/projects/TLE_back.jpg" alt="TLE5206 Controller PCB Assembled (back)" width="600" height="400">
+      </a>
+      <div class="desc">Assembled motor controller PCB - (2017)</div>
+    </div>
+	
+	<div class="gallery">
+      <a target="_blank" href="img/projects/gsm_front.png">
+         <img src="img/projects/gsm_front.png" alt="GSM Phone PCB (front)" width="600" height="400">
+      </a>
+      <div class="desc">GSM PCB rendered in Wings 3D (KiCAD) - (2017)</div>
+    </div>
+	
+	<div class="gallery">
+      <a target="_blank" href="img/projects/gsm_back.png">
+         <img src="img/projects/gsm_back.png" alt="GSM Phone PCB (back)" width="600" height="400">
+      </a>
+      <div class="desc">GSM PCB rendered in Wings 3D (KiCAD) - (2017)</div>
+    </div>
+	
+	<div class="gallery">
+      <a target="_blank" href="img/projects/gsm_pcb_front.jpg">
+         <img src="img/projects/gsm_pcb_front.jpg" alt="Partially Assembled (front)" width="600" height="400">
+      </a>
+      <div class="desc">GSM phone partially assembled - (2017)</div>
+    </div>
+	
+	<div class="gallery">
+      <a target="_blank" href="img/projects/gsm_pcb_back.jpg">
+         <img src="img/projects/gsm_pcb_back.jpg" alt="Partially Assembled (back)" width="600" height="400">
+      </a>
+      <div class="desc">GSM phone partially assembled - (2017)</div>
+    </div>
+	
+	<div class="gallery">
+      <a target="_blank" href="img/projects/roboard_pcb.jpg">
+         <img src="img/projects/roboard_pcb.jpg" alt="Roboard PCB" width="600" height="400">
+      </a>
+      <div class="desc">Roboard partially assembled - (2018)</div>
+    </div>
+	
+	<div class="gallery">
+      <a target="_blank" href="img/projects/roboard_assembled.jpg">
+         <img src="img/projects/roboard_assembled.jpg" alt="Roboard PCB Assembled" width="600" height="400">
+      </a>
+      <div class="desc">Roboard assembled - (2018)</div>
+    </div>
+	
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
+
+</body>
+
 </html>
