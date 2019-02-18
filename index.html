@@ -20,29 +20,9 @@
 
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
-  <!-- Style for image gallery -->
-  <style>
-  div.gallery {
-    margin: 25px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-  }
   
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
+  <link href="css/lightbox.css" rel="stylesheet">
   
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
-  </style>
   
 </head>
 
@@ -101,11 +81,9 @@
           <a href="https://www.linkedin.com/in/aamiro/">
             <i class="fab fa-linkedin-in"></i>
           </a>
-		  <!--
-          <a href="#">
+          <a href="https://github.com/AMiro1155">
             <i class="fab fa-github"></i>
           </a>
-		  -->
         </div>
       </div>
     </section>
@@ -182,6 +160,7 @@
             <div>Electrical Engineering</div>
             <p>GPA: 3.55</p>
 			<p>MMIC Design (with ADS/AWR) - A</p>
+			<p>Industrial and Power Electronics - A</p>
 			<p>VLSI Design - A</p>
           </div>
           <div class="resume-date text-md-right">
@@ -299,7 +278,7 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
       <div class="w-100">
         <h2 class="mb-5">Interests</h2>
-        <p>I study Japanese in my spare time, and have been doing so for the past 6 years. Currently I know　the hiragana/katakana phonetic alphabets, a small selection (around a 100) kanji and basic grammar (verb conjugation etc.). I have still much to learn and after uni I plan to study more seriously!</p>
+        <p>I study Japanese in my spare time, and have been doing so for the past 6 years. Currently I know the hiragana/katakana phonetic alphabets, a small selection (around a 100) kanji and basic grammar (verb conjugation etc.). I have still much to learn and after uni I plan to study more seriously!</p>
 		<p>こんにちは、アンドリユーと申します！２１歳です。電子工学です。英語とロシア語と少しにほんごを話せます。</p>
 		<p>Я говорю и пишу по-русски, так как родился в России.</p>
 		<p>During university, I've learned to ballroom dance. Dance competitively against other unis with Bristol's BULABDS. Danced in Blackpool twice.</p>
@@ -310,92 +289,65 @@
     </section>
 	
 	<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="gallery">
-      <div class="w-100">
-        <h2 class="mb-5">Gallery</h2>
-        <p>A small gallery demonstrating my spare-time projects.</p>
-      </div>
-    </section>
-	
-	<div class="gallery">
-      <a target="_blank" href="img/projects/arduino_clock1.JPG">
-         <img src="img/projects/arduino_clock1.JPG" alt="Arduino Clock" width="600" height="400">
-      </a>
-      <div class="desc">First arduino clock I designed - (2014)</div>
+	<h2 class="mb-5">University Work Gallery</h2>
+	<div class="w-100">
+	  <a class="example-image-link" href="img/uni_work/BCD_COunt.png" data-lightbox="uni_work" data-title="BCD counter schematic - (2017)">
+	  <img src="img/uni_work/BCD_COunt.png" width="120" height="80" /></a>
+      <a class="example-image-link" href="img/uni_work/BCD_lay_full.png" data-lightbox="uni_work" data-title="BCD counter layout drawn with Cadence Virtuoso - (2017)">
+	  <img src="img/uni_work/BCD_lay_full.png" width="120" height="80" /></a>
+	  <p><a href="pdf/VLSI_proj4.pdf">VLSI BCD Counter Design Here</a></p>
+	  
+      <a class="example-image-link" href="img/uni_work/uci_boost_bottom.jpg" data-lightbox="uni_work" data-title="Boost converter design and build - (2018)">
+	  <img src="img/uni_work/uci_boost_bottom.jpg" width="120" height="80" /></a>
+	  <a class="example-image-link" href="img/uni_work/uci_boost_top.jpg" data-lightbox="uni_work" data-title="Boost converter design and build - (2018)">
+	  <img src="img/uni_work/uci_boost_top.jpg" width="120" height="80" /></a>
+	  <p><a href="pdf/pow_elec_lab3.pdf">Boost Convert Design Lab Here</a></p>
+	  
+	  <a class="example-image-link" href="img/uni_work/ads_real.PNG" data-lightbox="uni_work" data-title="RF amplifier designed in ADS - (2018)">
+	  <img src="img/uni_work/ads_real.PNG" width="120" height="80" /></a>
+	  <a class="example-image-link" href="img/uni_work/awr_real.PNG" data-lightbox="uni_work" data-title="RF amplifier designed in AWR - (2018)">
+	  <img src="img/uni_work/ads_real.PNG" width="120" height="80" /></a>
+	  <p><a href="pdf/project2.pdf">RF Design Project Here</a></p>
+	  
+
+	  <p></p>
+
     </div>
-	
-	<div class="gallery">
-      <a target="_blank" href="img/projects/ic_clock.JPG">
-         <img src="img/projects/ic_clock.JPG" alt="IC Clock" width="600" height="400">
-      </a>
-      <div class="desc">Digital clock PCB etched using ferric chloride - (2014)</div>
-    </div>
-	
-	<div class="gallery">
-      <a target="_blank" href="img/projects/TLE5206_front.png">
-         <img src="img/projects/TLE5206_front.png" alt="TLE5206 Controller PCB" width="600" height="400">
-      </a>
-      <div class="desc">PCB designed for Bristol's lunar rover entry - (2017)</div>
-    </div>
-	
-	<div class="gallery">
-      <a target="_blank" href="img/projects/TLE_front.jpg">
-         <img src="img/projects/TLE_front.jpg" alt="TLE5206 Controller PCB Assembled (Front)" width="600" height="400">
-      </a>
-      <div class="desc">Assembled motor controller PCB - (2017)</div>
-    </div>
-	
-	<div>
 	<p></p>
-	</div>
+	<h2 class="mb-5">University Work Gallery</h2>
+	</section>
 	
-	<div class="gallery">
-      <a target="_blank" href="img/projects/TLE_back.jpg">
-         <img src="img/projects/TLE_back.jpg" alt="TLE5206 Controller PCB Assembled (back)" width="600" height="400">
-      </a>
-      <div class="desc">Assembled motor controller PCB - (2017)</div>
+	<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="gallery">
+	<h2 class="mb-5">Personal Project Gallery</h2>
+	<div class="w-100">
+      <a class="example-image-link" href="img/projects/arduino_clock1.jpg" data-lightbox="projects" data-title="First arduino clock I designed - (2014)">
+	  <img src="img/projects/arduino_clock1.jpg" width="120" height="80" /></a>
+	  <a class="example-image-link" href="img/projects/ic_clock.jpg" data-lightbox="projects" data-title="Digital clock PCB etched using ferric chloride - (2014)">
+	  <img src="img/projects/ic_clock.jpg" width="120" height="80" /></a>
+	  <a class="example-image-link" href="img/projects/TLE5206_front.png" data-lightbox="projects" data-title="PCB designed for Bristol's lunar rover entry - (2017)">
+	  <img src="img/projects/TLE5206_front.png" width="120" height="80" /></a>
+	  <a class="example-image-link" href="img/projects/TLE_front.jpg" data-lightbox="projects" data-title="Assembled motor controller PCB - (2017)">
+	  <img src="img/projects/TLE_front.jpg" width="120" height="80" /></a>
+	  <p></p>
+	  <a class="example-image-link" href="img/projects/TLE_back.jpg" data-lightbox="projects" data-title="Assembled motor controller PCB - (2017)">
+	  <img src="img/projects/TLE_back.jpg" width="120" height="80" /></a>
+	  <a class="example-image-link" href="img/projects/gsm_front.png" data-lightbox="projects" data-title="GSM PCB rendered in Wings 3D (KiCAD) - (2017)">
+	  <img src="img/projects/gsm_front.png" width="120" height="80" /></a>
+	  <a class="example-image-link" href="img/projects/gsm_back.png" data-lightbox="projects" data-title="GSM PCB rendered in Wings 3D (KiCAD) - (2017)">
+	  <img src="img/projects/gsm_back.png" width="120" height="80" /></a>
+	  <a class="example-image-link" href="img/projects/gsm_pcb_front.jpg" data-lightbox="projects" data-title="GSM phone partially assembled - (2017)">
+	  <img src="img/projects/gsm_pcb_front.jpg" width="120" height="80" /></a>
+	  <p></p>
+	  <a class="example-image-link" href="img/projects/gsm_pcb_back.jpg" data-lightbox="projects" data-title="GSM phone partially assembled - (2017)">
+	  <img src="img/projects/gsm_pcb_back.jpg" width="120" height="80" /></a>
+	  <a class="example-image-link" href="img/projects/roboard_pcb.jpg" data-lightbox="projects" data-title="Roboard partially assembled - (2018)">
+	  <img src="img/projects/roboard_pcb.jpg" width="120" height="80" /></a>
+	  <a class="example-image-link" href="img/projects/roboard_assembled.jpg" data-lightbox="projects" data-title="Roboard assembled - (2018)">
+	  <img src="img/projects/roboard_assembled.jpg" width="120" height="80" /></a>
     </div>
-	
-	<div class="gallery">
-      <a target="_blank" href="img/projects/gsm_front.png">
-         <img src="img/projects/gsm_front.png" alt="GSM Phone PCB (front)" width="600" height="400">
-      </a>
-      <div class="desc">GSM PCB rendered in Wings 3D (KiCAD) - (2017)</div>
-    </div>
-	
-	<div class="gallery">
-      <a target="_blank" href="img/projects/gsm_back.png">
-         <img src="img/projects/gsm_back.png" alt="GSM Phone PCB (back)" width="600" height="400">
-      </a>
-      <div class="desc">GSM PCB rendered in Wings 3D (KiCAD) - (2017)</div>
-    </div>
-	
-	<div class="gallery">
-      <a target="_blank" href="img/projects/gsm_pcb_front.jpg">
-         <img src="img/projects/gsm_pcb_front.jpg" alt="Partially Assembled (front)" width="600" height="400">
-      </a>
-      <div class="desc">GSM phone partially assembled - (2017)</div>
-    </div>
-	
-	<div class="gallery">
-      <a target="_blank" href="img/projects/gsm_pcb_back.jpg">
-         <img src="img/projects/gsm_pcb_back.jpg" alt="Partially Assembled (back)" width="600" height="400">
-      </a>
-      <div class="desc">GSM phone partially assembled - (2017)</div>
-    </div>
-	
-	<div class="gallery">
-      <a target="_blank" href="img/projects/roboard_pcb.jpg">
-         <img src="img/projects/roboard_pcb.jpg" alt="Roboard PCB" width="600" height="400">
-      </a>
-      <div class="desc">Roboard partially assembled - (2018)</div>
-    </div>
-	
-	<div class="gallery">
-      <a target="_blank" href="img/projects/roboard_assembled.jpg">
-         <img src="img/projects/roboard_assembled.jpg" alt="Roboard PCB Assembled" width="600" height="400">
-      </a>
-      <div class="desc">Roboard assembled - (2018)</div>
-    </div>
+	<p></p>
+	<h2 class="mb-5">Personal Project Gallery</h2>
+	</section>
 	
   </div>
 
@@ -409,6 +361,15 @@
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
 
+  <!-- Gallery JavaScript -->
+  <script src="js/lightbox.js"></script>
+  
+  <script>
+		lightbox.option({
+			'wrapAround': true
+		})
+  </script>
+  
 </body>
 
 </html>
